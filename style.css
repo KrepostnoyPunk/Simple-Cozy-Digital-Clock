@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    color: lightgray;
+    background: url(https://flomaster.top/o/uploads/posts/2023-10/1697734679_flomaster-top-p-les-leto-rassvet-narisovannie-instagram-1.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1{
+    letter-spacing: 4px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.clock{
+    display: flex;
+}
+
+.clock div{
+    margin: 10px;
+    position: relative;
+}
+
+.clock span{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.clock .text{
+    height: 30px;
+    font-size: 15px;
+    letter-spacing: 2px;
+    background: coral;
+}
+
+.clock #ampm{
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 25px;
+}
